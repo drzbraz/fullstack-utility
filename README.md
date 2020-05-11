@@ -3,6 +3,8 @@ O comando "mv" tem a função de mover arquivos. A utilização dele é praticam
 $ mv MV.txt /home/baixaki/Trabalho/MV.txt  - O arquivo MV.txt foi movido para a pasta /home/baixaki/Trabalho com o mesmo nome.
 $ mv MV.txt  VM.txt – O arquivo MV.txt continuou onde estava, porém, agora possui o nome de VM.txt.
 
+sudo apt-get install -f : Para instalar todas as dependencias do pacote
+
 
 
 ### Docker
