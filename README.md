@@ -10,7 +10,7 @@ Para renomear arquivos: mv (nome do arquivo atual) (nome do arquivo que deseja)
 
 
 ### Docker
-docker ps : mostrar containers ativas\n
+docker ps : mostrar containers ativas
 docker ps -a : mostrar todas as containers
 docker start (id container): iniciar uma containers
 docker stop (id container): parar uma containers
