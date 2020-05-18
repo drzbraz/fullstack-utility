@@ -14,3 +14,14 @@ docker ps : mostrar containers ativas
 docker ps -a : mostrar todas as containers
 docker start (id container): iniciar uma containers
 docker stop (id container): parar uma containers
+
+### MongoDB
+
+Para filtrar um range de datas:
+
+db.getCollection('nome da collection').find({ 
+    "createdAt": {
+        $gte: ISODate("2020-04-06T00:00:00.000-03:00"),
+        $lt: ISODate("2020-04-22T23:59:59.999-03:00")
+    }
+})
