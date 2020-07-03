@@ -31,38 +31,85 @@ db.getCollection('nome da collection').find({
 ### Default configuration VSCODE
 
 {
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Dracula",
-  "window.zoomLevel": 0,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.fontFamily": "Fire Code",
-  "editor.fontLigatures": true,
-  "terminal.integrated.fontFamily": "monospace",
-  "editor.fontSize": 18,
-  "editor.lineHeight": 24,
-  "editor.formatOnSave": true,
-  "editor.rulers": [80, 120],
-  "editor.tabSize": 2,
-  "editor.renderLineHighlight": "gutter",
   "terminal.integrated.fontSize": 14,
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "njk": "html"
-  },
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+
+  "editor.tabSize": 2,
+  "editor.fontSize": 18,
+  "editor.lineHeight": 26,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
   "breadcrumbs.enabled": true,
   "editor.parameterHints.enabled": false,
-  "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  
+  "editor.rulers": [80, 120],
+  
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
   },
-  "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": true,
-  "javascript.format.insertSpaceAfterSemicolonInForStatements": false,
-  "prettier.semi": false,
-  "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
-  "liveServer.settings.donotShowInfoMsg": true
+
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json"
+  },
+
+  "window.zoomLevel": 0,
+
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+  
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+
+  "git.enableSmartCommit": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "liveshare.featureSet": "insiders",
+
+  "typescript.tsserver.log": "verbose",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "material-icon-theme.activeIconPack": "nest",
+  "screencastMode.onlyKeyboardShortcuts": true,
+
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe"
+  },
+
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d"
+  },
+
+  "workbench.colorTheme": "Dracula"
 }
