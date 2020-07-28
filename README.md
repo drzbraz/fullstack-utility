@@ -28,6 +28,9 @@ db.getCollection('nome da collection').find({
     }
 })
 
+
+git reset --hard
+
 ### Default configuration VSCODE
 
 {
