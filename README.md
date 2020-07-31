@@ -8,7 +8,7 @@ sudo apt-get install -f : Para instalar todas as dependencias do pacote
 Para renomear arquivos: mv (nome do arquivo atual) (nome do arquivo que deseja)
 
 /etc/apt/sources.list.d/
-
+tar -vzxf nomedoarquivo
 
 
 ### Docker
