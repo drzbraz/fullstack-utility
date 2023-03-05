@@ -113,7 +113,7 @@ git reset --hard
   "editor.formatOnType": true
 }
 
-# Default configuration global css:
+## Default configuration global css:
 * {
   margin: 0;
   padding: 0;
