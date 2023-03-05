@@ -112,3 +112,45 @@ git reset --hard
   "workbench.colorTheme": "Dracula",
   "editor.formatOnType": true
 }
+
+# Default configuration global css:
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+body,
+input,
+textarea,
+select,
+button {
+  font: 400 1rem 'Roboto', sans-serif;
+}
+
+@media (max-width: 1080px) {
+  //tablet
+  html {
+    font-size: 93.75%; //15px
+  }
+}
+
+@media (max-width: 720px) {
+  //mobile
+  html {
+    font-size: 87.5%; //14px
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
